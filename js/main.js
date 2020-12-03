@@ -22,6 +22,13 @@ gyvunelis.introduce();
 console.log(gyvunelis);
 gyvunelis.voice();
 
-const naminis = new Pet;
+const pet = new Pet('Nikas', 'Juoda');
+console.log(pet);
+
+pet.introduce();
+pet.petInterests();
+pet.walk(5);
+
+
 
 
